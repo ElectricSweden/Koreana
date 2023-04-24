@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover-img {
+    background-color: #FF5C21;
+    height: 25vh;
+    width: 100%;
+}
+
+.menu-tab {
+    background-color: blueviolet;
+    height: 12.5vh;
+    width: 100%;
+    font-size: 64px;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
+}
+
+.sub-title {
+    height: 7.5vh;
+    border-block: #390F00 4px solid;
+}
+
+h3 {
+    margin-inline: 48px;
+    font-family: 'Goldman', cursive;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.body-text {
+    margin: 48px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}

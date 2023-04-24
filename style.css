@@ -6,9 +6,49 @@
 
 
 .heroimg {
+    background-color: transparent;
+    border: #FF5C21 8px solid;
+    height: 85vh;
+    width: 100% - 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.herotitle {
+    position: absolute;
+    left: 50%;
+    margin-left: -267px;
+    top: 50%;
+    margin-top: -115px;
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    z-index: 1;
+
+    color: #FF5C21;
+
+    text-shadow: 4px 4px 4px #390F00;
+}
+
+.sidebar {
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    margin-top: -100px;
+    width: 125px;
+    height: 100px;
     background-color: #FF5C21;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+    z-index: 1;
+}
+
+.landingimg {
     height: 85vh;
     width: 100%;
+    filter: blur(6px);
 }
 
 .slogan {
