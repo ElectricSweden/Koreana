@@ -1,16 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #F7F5E7;
+    color: #390F00;
 }
 
 .cover-img {
-    background-color: #FF5C21;
     height: 25vh;
-    width: 100%;
+    width: 100% - 8px;
+    border: #FF5C21 8px solid;
 }
 
 .menu-tab {
-    background-color: blueviolet;
+    background-color: transparent;
     height: 12.5vh;
     width: 100%;
     font-size: 64px;
@@ -34,4 +36,10 @@ h3 {
     margin: 48px;
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
+}
+
+.headerimg {
+    height: 25vh;
+    width: 100%;
+    filter: blur(6px);
 }
