@@ -47,3 +47,22 @@ h3 {
     width: 100%;
     filter: blur(6px);
 }
+
+.sidebar-btn {
+    position: absolute;
+    right: -25px;
+    top: 395px;
+    margin-top: -100px;
+    width: 125px;
+    height: 100px;
+    background-color: #FF5C21;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+    z-index: 1;
+}
+
+.sidebar-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

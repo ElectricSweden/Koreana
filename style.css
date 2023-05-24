@@ -45,6 +45,21 @@
     z-index: 1;
 }
 
+.sidebar-btn-2 {
+    position: absolute;
+    left: calc(20vw - 50px);
+    top: 50%;
+    margin-top: -100px;
+    width: 125px;
+    height: 100px;
+    background-color: #FF5C21;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+    z-index: 1;
+    display: none;
+}
+
 .sidebar-btn:hover {
     cursor: pointer;
     opacity: 0.7;
@@ -244,6 +259,17 @@
     animation-fill-mode: forwards;
 }
 
+.slide-back-animation {
+    animation-name: sidebar-slideback;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+a {
+    text-decoration: none;
+    color: #F7F5E7;
+}
+
 @keyframes sidebar-slide {
     from
     {
@@ -254,4 +280,21 @@
     {
         left: 0;
     }
+}
+
+@keyframes sidebar-slideback {
+    from
+    {
+        left: 0;
+    }
+    
+    to
+    {
+        left: -20vw;
+    }
+}
+
+
+@media screen {
+    
 }
