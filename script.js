@@ -1,10 +1,12 @@
 let sidebar_btn = document.getElementsByClassName("sidebar-btn")[0];
-
 let sidebar_btn_2 = document.getElementsByClassName("sidebar-btn-2")[0];
 
-sidebar_btn_2.addEventListener("click", addSlideBackClass);
+let menu_btn = document.getElementsByClassName("to-menu")[0];
 
 sidebar_btn.addEventListener("click", addSlideClass);
+sidebar_btn_2.addEventListener("click", addSlideBackClass);
+
+menu_btn.addEventListener("click", toMenu);
 
 function addSlideClass()
 {
@@ -26,4 +28,9 @@ function addSlideBackClass()
     setTimeout(function(){
         sidebar_btn.style.display = "block";
     }, 1000);
+}
+
+function toMenu()
+{
+    window.location = ""
 }
