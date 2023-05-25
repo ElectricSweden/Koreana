@@ -89,3 +89,17 @@ a {
     text-decoration: none;
     color: #FF5C21;
 }
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}

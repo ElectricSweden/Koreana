@@ -438,5 +438,49 @@ a {
     color: #FF5C21;
 
     text-shadow: 4px 4px 4px #390F00;
-}
+    }
+
+    .slogantext {
+        font-size: 14px;
+    }
+
+    .history-title {
+        font-size: 14px;
+    }
+
+    .history-text {
+        font-size: 14px;
+    }
+
+    .offer-title {
+        font-size: 14px;
+    }
+    
+    .offer-text {
+        font-size: 14px;
+    }
+
+    .info-title {
+        font-size: 48px;
+    }
+
+    .info-phone {
+        font-size: 14px;
+    }
+
+    .info-mail {
+        font-size: 14px;
+    }
+
+    .info-address {
+        font-size: 14px;
+    }
+
+    .info-book {
+        font-size: 14px;
+    }
+
+    .times {
+        font-size: 14px;
+    }
 }

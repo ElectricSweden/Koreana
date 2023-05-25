@@ -69,3 +69,35 @@ h3 {
     cursor: pointer;
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1366px) {
+    .sidebar-btn {
+        position: absolute;
+        right: 0px;
+        top: 340px;
+        margin-top: -100px;
+        width: 125px;
+        height: 100px;
+        background-color: #FF5C21;
+        color: white;
+        border-radius: 25px;
+        border-color: transparent;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .sidebar-btn {
+        position: absolute;
+        right: calc(50% - 50px);
+        top: 50px;
+        margin-top: -100px;
+        width: 100px;
+        height: 125px;
+        background-color: #FF5C21;
+        color: white;
+        border-radius: 25px;
+        border-color: transparent;
+        z-index: 1;
+    }
+}
