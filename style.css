@@ -293,3 +293,150 @@ a {
         left: -20vw;
     }
 }
+
+@media screen and (max-width: 1366px) {
+    .slogantext {
+        font-size: 32px;
+    }
+
+    .history-title {
+        font-size: 24px;
+    }
+
+    .history-text {
+        font-size: 24px;
+    }
+
+    .offer-title {
+        font-size: 24px;
+    }
+    
+    .offer-text {
+        font-size: 24px;
+    }
+
+    .info-title {
+        font-size: 64px;
+    }
+
+    .info-phone {
+        font-size: 24px;
+    }
+
+    .info-mail {
+        font-size: 24px;
+    }
+
+    .info-address {
+        font-size: 24px;
+    }
+
+    .info-book {
+        font-size: 24px;
+    }
+
+    .times {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .menu-tab {
+        left: 0;
+        top: -40vh;
+        width: 100%;
+        height: 40vh;
+        background-color: #FF5C21;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 24px;
+        font-family: 'Goldman', cursive;
+        color: #F7F5E7;
+    }
+
+    .sidebar-btn {
+        position: absolute;
+        left: calc(50% - 50px);
+        top: 10vh;
+        margin-top: -100px;
+        width: 100px;
+        height: 50px;
+        background-color: #FF5C21;
+        color: white;
+        border-radius: 25px;
+        border-color: transparent;
+        z-index: 1;
+        display: none;
+    }
+
+    .sidebar-btn-2 {
+        position: absolute;
+        left: calc(50% - 50px);
+        top: 48vh;
+        margin-top: -100px;
+        width: 100px;
+        height: 50px;
+        background-color: #FF5C21;
+        color: white;
+        border-radius: 25px;
+        border-color: transparent;
+        z-index: 1;       
+    }
+
+    .slide-animation {
+        animation-name: sidebar-slide;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .slide-back-animation {
+        animation-name: sidebar-slideback;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes sidebar-slide {
+        from
+        {
+            top: -40vh;
+        }
+    
+        to
+        {
+            top: 0;
+        }
+    }
+    
+    @keyframes sidebar-slideback {
+        from
+        {
+            top: 0;
+        }
+        
+        to
+        {
+            top: -40vh;
+        }
+    }
+
+    .herotitle {
+    position: absolute;
+    left: 50%;
+    margin-left: -133px;
+    top: 50%;
+    margin-top: -57px;
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    z-index: 1;
+
+    color: #FF5C21;
+
+    text-shadow: 4px 4px 4px #390F00;
+}
+}
